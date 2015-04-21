@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * ApnsPHP_Message class definition.
+ * ApnsPHP_APNSMessage class definition.
  *
  * LICENSE
  *
@@ -28,10 +28,10 @@
  * The class represents a message to be delivered to an end user device.
  * Notification Service.
  *
- * @ingroup ApnsPHP_Message
+ * @ingroup ApnsPHP_APNSMessage
  * @see http://tinyurl.com/ApplePushNotificationPayload
  */
-class ApnsPHP_Message
+class ApnsPHP_APNSMessage
 {
 	const PAYLOAD_MAXIMUM_SIZE = 256; /**< @type integer The maximum size allowed for a notification payload. */
 	const APPLE_RESERVED_NAMESPACE = 'aps'; /**< @type string The Apple-reserved aps namespace. */
